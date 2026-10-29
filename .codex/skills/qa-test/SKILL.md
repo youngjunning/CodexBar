@@ -22,15 +22,15 @@ Use for live provider testing, release smoke tests, menu verification, or debugg
 Run the bundled script:
 
 ```bash
-.agents/skills/qa-test/scripts/live_provider_matrix.sh --enabled
+.codex/skills/qa-test/scripts/live_provider_matrix.sh --enabled
 ```
 
 Useful modes:
 
 ```bash
-.agents/skills/qa-test/scripts/live_provider_matrix.sh --provider all
-.agents/skills/qa-test/scripts/live_provider_matrix.sh --providers openai,zai,deepseek
-.agents/skills/qa-test/scripts/live_provider_matrix.sh --default
+.codex/skills/qa-test/scripts/live_provider_matrix.sh --provider all
+.codex/skills/qa-test/scripts/live_provider_matrix.sh --providers openai,zai,deepseek
+.codex/skills/qa-test/scripts/live_provider_matrix.sh --default
 ```
 
 Interpretation:
